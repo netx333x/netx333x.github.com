@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+	height: 100%;
+
+　/* ポイント1 */
+;
+	background-image: url(../images/pattern.png);
+}
+
+#container {
+	min-height: 100%;　/* ポイント1 */
+	_height: 100%; /* for IE6 */
+}
+
+
+#header {
+	background-image: url(../images/bg3.gif);
+	height: 145px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	overflow: hidden;
+}
+
+
+#header h1{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#header ul li{
+	float:left;
+	margin-top: 10px;
+	margin-left: 5px;
+	
+	}
+
+#header ul {
+	margin: auto;
+}
+
+#warpper {
+	width: 990px;
+	padding-bottom: 130px; /* ポイント3 */
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+#warpper h2{
+	
+	margin-top:20px;
+	margin-bottom:20px;
+
+}
+
+#nav {
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	width: 930px;
+	overflow: hidden;
+}
+
+
+#footer {
+	margin-top: -125px;
+	background-image: url(../images/bg2.gif);
+	height: 125px;
+	clear: both;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	overflow: hidden;
+}
+#footer address {
+	color: #FFF;
+	margin-top: 100px;
+	text-align: center;
+	font-style: normal;
+	font-family: Meiryo, Osaka, sans-serif;
+}
+
+#page-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-image: url(../images/pagetop.png);
+	background-repeat: no-repeat;
+}
+#page-top a {
+	height: 64px;
+	width: 71px;
+	display: block;
+}
+
+#page-top:hover {
+	opacity:0.8;
+}
+
+.box{
+	background-color: #FFFFFF;
+	border:#666666 solid 1px;
+	padding: 40px;
+}
+

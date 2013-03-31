@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#text {
+	height: 260px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-image: url(../images/text.png);
+}
+#news {
+	float: left;
+	height: 260px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-image: url(../images/news.gif);
+}
+#newstext {
+	height: 198px;
+	width: 270px;
+	margin-top: 56px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	overflow: auto;
+}
+#newstext ul li {
+	border-bottom-width: 0.5px;
+	border-bottom-style: dashed;
+	border-bottom-color: #369;
+	margin:35px 0px;
+	font-size: 14px;
+	color: #666;
+}
+
+#tw {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	float: left;
+	position: relative;
+}
+#tw .twicon {
+	position: absolute;
+	z-index: 999;
+	top: 1px;
+	right: 30px;
+}
+#tw .fbicon {
+	position: absolute;
+	z-index: 999;
+	right: 90px;
+	top: 1px;
+}
+.ca-item-2012_7_15 .ca-icon {
+	background-image: url(../images/sample7.jpg);
+}

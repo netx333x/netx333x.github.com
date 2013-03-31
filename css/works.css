@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content_list ul li {
+	float: left;
+	height: 199px;
+	width: 220px;
+	overflow: hidden;
+	background-color: #FFF;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border: 0.5px solid #999;
+}
+#content_list ul {
+	display: block;
+}
+
+
+#content_list {
+	width: 967px;
+	height: auto;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#content_list li:hover {
+	border:solid 0.5px #ccc;
+	opacity:0.8;
+	
+}
+
+#individual {
+	width: auto;
+	overflow: hidden;
+}
+#collaboration {
+	overflow: hidden;
+}
+
+#individual h2 {
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 19px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	height: 30px;
+	background-image: url(../images/bg_h2-1.gif);
+}
+
+#collaboration h2 {
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 19px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	height: 30px;
+	background-image: url(../images/bg_h2_2-1.gif);
+}
+#other h2 {
+	text-align: center;
+	background-image: url(../images/bg_h2_3-1.gif);
+	height: 30px;
+	margin-top: 5px;
+	margin-right: 19px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#other ul li a img {
+	padding-top: 10%;
+	padding-bottom: 20%;
+}
