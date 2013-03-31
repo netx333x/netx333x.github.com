@@ -2,8 +2,12 @@
 
 //CHECK 01
 
-if (confirm('俺はWEBデザイナー？（○:OK / ×:キャンセル)')) {
-	alert('正解だと思っていた時期が俺にもありました。');
+var now = new Date();
+var hour = now.getHours();
+
+
+if (hour < 12) {
+	window.alert('今は午前' + hour + '時です');
 } else {
-	alert('え？それはひどくない？');
+	window.alert('今は午後' + hour + '時です');
 }
