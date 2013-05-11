@@ -11,22 +11,23 @@
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="images/icon.ico" />
 <script type="text/javascript" src="if.js"></script>
+<script type="text/javascript" src="print-code.js"></script>
 
 </head>
 
-<body onload="MM_preloadImages('images/Web.gif','images/images/button_over_01.png','images/images/button_over_02.png','images/images/button_over_03.png','images/images/button_over_04.png','images/images/button_over_05.png')">
+<body>
 <div id="container">
   <div id="header">
     <div id="nav">
       <h1><a href="index.html"><img src="images/rogo.png" width="300" height="98" alt="ポートフォリオサイト" /></a></h1>
     </div>
     <!-- #nav end --> 
-    
+
   </div>
   <!-- #header end-->
   <div id="warpper">
   <h2>【javascript】時間を取得する勉強</h2>
-  <div class="box"><code>
+  <pre class="box"><code>
   var now = new Date();<br />
 var hour = now.getHours();<br />
 if (hour < 12) {<br />
@@ -34,7 +35,7 @@ if (hour < 12) {<br />
      else {window.alert('今は午後' + hour + '時です');<br />
 }<br />
   </code>
-</div>    
+</pre>
     <!-- /#warpper --></div>
   <!-- /#container --></div>
 <div id="footer">
